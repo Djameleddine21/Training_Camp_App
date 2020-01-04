@@ -14,8 +14,7 @@ class TC extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/login': (context) => LoginPage(),
-        'signup' :(context) => SignupPage(),
-
+        '/signup' :(context) => SignupPage(),
       },
     );
   }
